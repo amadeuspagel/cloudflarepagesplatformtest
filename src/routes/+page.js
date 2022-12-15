@@ -1,4 +1,4 @@
-export async function load({ params, env }) {
+export async function load({ params }) {
   const test = await env.TEST.get('test')
 
   return {
